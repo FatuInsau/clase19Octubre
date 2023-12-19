@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+#lugares {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 100%;
+}
+
+.lugar {
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 200px;
+}
