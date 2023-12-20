@@ -12,6 +12,7 @@ body{
     flex-wrap: wrap;
     gap: 10px;
     height: 100%;
+    align-content: flex-start;
 }
 
 .lugar {
@@ -23,4 +24,18 @@ body{
     align-items: center;
     padding: 20px;
     flex-direction: column;
+}
+
+.filtros {
+    padding: 10px;
+    background: beige;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+#lugares :hover {
+    background-color: skyblue;
 }
