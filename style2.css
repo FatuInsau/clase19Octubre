@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    padding: 20px;
+}
+
+button {
+    padding: 15px 40px;
+    margin: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+#personajes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.personaje {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 3px 10px 0px #033903c7;
+    padding: 10px;
+}
